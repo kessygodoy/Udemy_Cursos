@@ -1,10 +1,12 @@
+import Nome from "./components/Nome";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <h1>Bem vindo ao meu projeto</h1>
+      <h2>Hello World!</h2>
+      <Nome aluno="Kessy" idade="29" />
+      <Nome aluno="João" idade="25" />
     </div>
   );
 }
 
-export default App;
