@@ -8,14 +8,15 @@ import Contato from './pages/Contato';
 
 const Routess = () => {
   return(
-    <BrowserRouter>
+    <></>
+    // <BrowserRouter>
 
-      <Routes>
-        <Route exact path="/" component={Home} />
-        <Route path="/sobre" component={Sobre} />
-        <Route path="/contato" component={Contato} />
-      </Routes>
-    </BrowserRouter>
+    //   <Routes>
+    //     <Route exact path="/" component={Home} />
+    //     <Route path="/sobre" component={Sobre} />
+    //     <Route path="/contato" component={Contato} />
+    //   </Routes>
+    // </BrowserRouter>
   )
 }
 
